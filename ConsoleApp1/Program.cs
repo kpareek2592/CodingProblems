@@ -10,6 +10,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine(RS1.ReverseString("Apple"));
+            Console.WriteLine(RS2.ReverseString("Mango"));
             Console.ReadLine();
         }
     }

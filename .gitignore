@@ -3,3 +3,5 @@
 ################################################################################
 
 /ConsoleApp1/bin/Debug/netcoreapp3.1
+/ConsoleApp1/obj
+/.vs/ConsoleApp1/v16
