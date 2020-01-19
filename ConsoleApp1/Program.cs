@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using ConsoleApp1.Palindrome;
 using ConsoleApp1.ReverseString;
 
 namespace ConsoleApp1
@@ -9,8 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(RS1.ReverseString("Apple"));
-            Console.WriteLine(RS2.ReverseString("Mango"));
+            // String Reverse
+            //Console.WriteLine(RS1.ReverseString("Apple"));
+            //Console.WriteLine(RS2.ReverseString("Mango"));
+
+            // Palindrome
+            //Console.WriteLine(Palindrome1.IsPalindrome("JAHAJ"));
+            Console.WriteLine(Palindrome2.IsPalindrome("JAHAJI"));
             Console.ReadLine();
         }
     }
