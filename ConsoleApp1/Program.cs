@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using ConsoleApp1.Palindrome;
+using ConsoleApp1.ReverseNumber;
 using ConsoleApp1.ReverseString;
 
 namespace ConsoleApp1
@@ -16,7 +17,10 @@ namespace ConsoleApp1
 
             // Palindrome
             //Console.WriteLine(Palindrome1.IsPalindrome("JAHAJ"));
-            Console.WriteLine(Palindrome2.IsPalindrome("JAHAJI"));
+            //Console.WriteLine(Palindrome2.IsPalindrome("JAHAJI"));
+
+            // Reverse Number
+            Console.WriteLine(ReverseNum.NumReverse(-123));
             Console.ReadLine();
         }
     }
